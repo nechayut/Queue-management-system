@@ -5,15 +5,23 @@ https://docs.google.com/spreadsheets/d/1QhQrbEDKYTZf5wqOwADd4N0Je3fQJt1SlZBcspDA
 Apps Script Code
 
 function getroomfinal() {
+
   var ss = SpreadsheetApp.getActiveSpreadsheet();
+  
   var sheet = ss.getSheetByName("register");
+  
   var room1 = ss.getSheetByName("ห้อง 1");
+  
   var room2 = ss.getSheetByName("ห้อง 2");
+  
   var room3 = ss.getSheetByName("ห้อง 3");
+  
   var room4 = ss.getSheetByName("ห้อง 4");
+  
   var room5 = ss.getSheetByName("ห้อง 5");
 
   for(var x = 4;x < 9;x++){
+  
     if((sheet.getRange(x,4).getValue()) == "Done"){
         for(var i = 13;i<321;i++){
           if((sheet.getRange(i,5).getValue()) == ""){
