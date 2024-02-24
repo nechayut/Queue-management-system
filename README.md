@@ -1,2 +1,2 @@
 # Queue-management-system
-Queue management system wit google sheet by using AppScript
+Queue management system with google sheet by using AppScript
