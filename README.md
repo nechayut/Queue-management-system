@@ -1,5 +1,5 @@
-# Queue-management-system
-Queue management system with google sheet by using Apps Script : 
+# Queue-management-template
+Queue management template with google sheet by using Apps Script : 
 https://docs.google.com/spreadsheets/d/1QhQrbEDKYTZf5wqOwADd4N0Je3fQJt1SlZBcspDA7Ck/edit#gid=0
 
 Apps Script Code
